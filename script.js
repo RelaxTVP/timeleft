@@ -1,5 +1,5 @@
 // Define a data final (meia-noite de 24 de julho de 2025)
-const finalDate = new Date('2025-07-24T10:00:00');
+const finalDate = new Date('2025-07-24T19:20:00');
 
 // Função para formatar o tempo restante
 function formatTimeLeft(ms) {
