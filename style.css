@@ -1,0 +1,66 @@
+body {
+  /* Fundo suave e claro, inspirado em temas de férias */
+  background-color: #e6f0fa;
+  /* Centraliza tudo e define altura total */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  /* Fonte padrão para consistência */
+  font-family: "Fira Code", monospace;
+}
+
+main {
+  /* Centraliza o conteúdo interno */
+  text-align: center;
+  /* Adiciona um leve fundo branco com sombra para destaque */
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  /* Título principal com cor vibrante */
+  color: #1a73e8;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.container h3 {
+  /* Texto do contador */
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: 400;
+  margin: 0;
+}
+
+#timeleft {
+  /* Estilo para o tempo restante */
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 1.8rem;
+  /* Transição suave para atualizações */
+  transition: color 0.3s ease;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  main {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container h3 {
+    font-size: 1.2rem;
+  }
+
+  #timeleft {
+    font-size: 1.5rem;
+  }
+}
